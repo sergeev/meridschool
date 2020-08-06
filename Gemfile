@@ -60,6 +60,11 @@ group :development do
 end
 
 group :test do
+  gem 'shoulda-matchers', '~> 4.3'
+  gem 'timecop', '~> 0.9.1'
+  gem 'factory_bot_rails', '~> 6.1'
+  gem 'database_cleaner', '~> 1.8', '>= 1.8.5'
+  gem 'simplecov', '~> 0.18.5'
   # Adds support for Capybara system testing and selenium driver
   # gem 'capybara', '>= 2.15'
   # gem 'selenium-webdriver'
